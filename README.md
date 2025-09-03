@@ -1,4 +1,4 @@
-# LLM-Powered Customer Support Assistant (Free Edition)
+# LLM-Powered Customer Support Assistant
 
 ## Overview
 
@@ -6,13 +6,13 @@ A simple customer support chatbot built using **free AI tools**:
 
 - SentenceTransformers for embeddings
 - FAISS for retrieval
-- Falcon-7B-Instruct (Hugging Face) for text generation
+- Google's flan-t5-base (hosted by Hugging Face) for text generation
 - Streamlit for UI
 
 ## Setup
 
 ```bash
-git clone https://github.com/YOURUSERNAME/customer-support-assistant.git
+git clone https://github.com/AtharKharal/customer-support-assistant.git
 cd customer-support-assistant
 pip install -r requirements.txt
 ```
